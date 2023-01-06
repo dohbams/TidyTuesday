@@ -70,4 +70,4 @@ ggplot( data = db2,aes(x= life_expectancy, y = reorder(Country, mn))) +
 
 # save the plot
 
-ggsave("ttuesday-week1-db-chart.png" , width = 12, height = 15, dpi = 1000)
+ggsave("ttuesday-week1-db-chart.png" , width = 12, height = 15, dpi = 600)
